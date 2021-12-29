@@ -48,7 +48,7 @@ endif
 # Compiler settings
 
 # The toolchain to use.
-PREFIX  ?= powerpc-eabi-
+PREFIX  ?= /opt/devkitpro/devkitPPC/bin/powerpc-eabi-
 # Tools to use
 AS      := $(PREFIX)as
 LD      := $(PREFIX)g++
